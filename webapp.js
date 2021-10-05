@@ -9,7 +9,7 @@ var pool = mysql.createPool({
     connectionLimit: 20,
     host: 'localhost',
     user: 'root',
-    password: '2972',
+    password: '****',
     database: 'inventario'
 });
 
@@ -27,6 +27,7 @@ aplicacion.use(bodyParser.urlencoded({ extended: true }));
  * json file for be viewed on the browser.
  */
 aplicacion.get("/api/inventario/producto/:id", function(peticion, respuesta) {
+    //GET METHODE
     pool.getConnection(function(err, connection) {
         let query = `SELECT id, nombre, precio, cantidad FROM producto WHERE id=${connection.escape(peticion.params.id)} ORDER BY precio ASC`
         connection.query(query, function(error, filas, campos) {
