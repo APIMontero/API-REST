@@ -1,0 +1,27 @@
+{
+    "name": "api-rest",
+    "version": "1.0.0",
+    "description": "Operation with API Rest and Express and MySQL",
+    "main": "webapp.js",
+    "scripts": {
+        "dev": "nodemon webapp.js",
+        "test": "echo \"Error: prueba no identificada\" && exit 1"
+    },
+    "keywords": [
+        "API",
+        "Rest",
+        "Express",
+        "Nodejs",
+        "nodemon",
+        "Javascript"
+    ],
+    "author": "David Montero (david.montero.urrutia@gmail.com)",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "mysql": "^2.18.1",
+        "nodemon": "^2.0.12"
+    }
+}

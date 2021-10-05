@@ -1,0 +1,28 @@
+{
+    "data": [{
+        "id": 40,
+        "nombre": "AVENA INTEGRAL MACHACADA",
+        "cantidad": 200,
+        "precio": 200000
+    }, {
+        "id": 38,
+        "nombre": "CASTAÑAS PARTIDAS",
+        "cantidad": 200,
+        "precio": 250550
+    }, {
+        "id": 39,
+        "nombre": "PASAS AL RON",
+        "cantidad": 45,
+        "precio": 98000
+    }, {
+        "id": 36,
+        "nombre": "PERAS DE AGUA  ",
+        "cantidad": 124,
+        "precio": 124000
+    }, {
+        "id": 42,
+        "nombre": "PLATANO GUATEMALTECO EXTRA",
+        "cantidad": 1000,
+        "precio": 250000
+    }]
+}
