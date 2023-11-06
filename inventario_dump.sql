@@ -18,6 +18,7 @@
 --
 -- Table structure for table `productos`
 --
+CREATE DATABASE inventario;
 
 DROP TABLE IF EXISTS `productos`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
